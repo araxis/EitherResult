@@ -1,9 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>10.0</LangVersion>
+    <PackageId>Arax.EitherResult</PackageId>
+    <Authors>Meisam Alifallahi</Authors>
+    <Description>Implemetation of Haskell's Either type in C#</Description>
+    <PackageProjectUrl>https://github.com/araxis/EitherResult</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/araxis/EitherResult</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
