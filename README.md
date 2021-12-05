@@ -19,29 +19,29 @@ Or via the .NET Core command line interface:
 ```csharp
     public Either<int,string> GetResult()
     {
-            if (condition)
-            {
-                return Either<int, string>.Left(1);
-            }
-            else
-            {
-                return Either<int, string>.Right("Result");
-            }
+      if (condition)
+      {
+         return Either<int, string>.Left(1);
+      }
+      else
+      {
+         return Either<int, string>.Right("Result");
+      }
     }
 ```
 ## OR : More Simple
 ```csharp
 public Either<int,string> GetPerson(long id)
-    {
-        if (condition)
-            {
-                return 1;
-            }
-            else
-            {
-                return "Result";
-            }
-    }
+{
+   if (condition)
+   {
+      return 1;
+   }
+   else
+   {
+      return "Result";
+   }
+ }
 ```
 ## Usage 
 ```csharp
