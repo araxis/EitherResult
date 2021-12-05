@@ -43,7 +43,7 @@ public Either<int,string> GetPerson(long id)
             }
     }
 ```
-## Basic Usage 
+## Usage 
 ```csharp
 public void UseResult()
 {
