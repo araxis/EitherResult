@@ -49,10 +49,13 @@ public void UseResult()
 {
    Either<int, string> result = GetResult();
 
-   result.Switch(onLeft: left => { },onRight: right => { });
+   result.Switch(onLeft: left => { },
+                 onRight: right => { });
 
-   Either<string, int> mapResult = result.Map(transformLeft:left => "map left", transformRight: right => 25);
+   Either<string, int> mapResult = result.Map(transformLeft:left => "map left",
+                                              transformRight: right => 25);
 
-   string foldResult = result.Fold(transformLeft: left => left.ToString(), transformRight: right => right);
+   string foldResult = result.Fold(transformLeft: left => left.ToString(),
+                                   transformRight: right => right);
 }
 ```
