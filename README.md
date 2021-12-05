@@ -3,7 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/dt/Arax.EitherResult.svg)](https://www.nuget.org/packages/Arax.EitherResult) 
 [![.NET](https://github.com/araxis/EitherResult/actions/workflows/dotnet.yml/badge.svg)](https://github.com/araxis/EitherResult/actions/workflows/dotnet.yml)
 
-Implemetation of Haskell's Either type in C#
+Implementation of Haskell's Either type in C#
 
 ### Installing EitherResult
 
