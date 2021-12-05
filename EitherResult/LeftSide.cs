@@ -1,8 +1,8 @@
 ﻿namespace EitherResult;
 
-internal class Left<TL, TR> : Either<TL, TR>
+public class Left<TL, TR> : Either<TL, TR>
 {
-    public Left(TL left)
+    internal Left(TL left)
     {
         
         LeftValue = left;
@@ -13,5 +13,7 @@ internal class Left<TL, TR> : Either<TL, TR>
     internal override TR RightValue => throw new Exception("Tried to get Right from a Left");
 
     internal override bool IsLeft => true;
+
+
   
 }

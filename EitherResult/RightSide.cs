@@ -1,8 +1,8 @@
 ﻿namespace EitherResult;
 
-internal class Right<TL, TR> : Either<TL, TR>
+public class Right<TL, TR> : Either<TL, TR>
 {
-    public Right(TR right)
+    internal Right(TR right)
     {
         RightValue = right;
     }
