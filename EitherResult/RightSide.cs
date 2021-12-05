@@ -11,6 +11,6 @@ internal class Right<TL, TR> : Either<TL, TR>
 
     internal override TR RightValue { get; }
 
-    public override bool IsLeft => true;
-    public override bool IsRight => false;
+    internal override bool IsLeft => false;
+
 }

@@ -12,6 +12,6 @@ internal class Left<TL, TR> : Either<TL, TR>
 
     internal override TR RightValue => throw new Exception("Tried to get Right from a Left");
 
-    public override bool IsLeft => true;
-    public override bool IsRight => false;
+    internal override bool IsLeft => true;
+  
 }
