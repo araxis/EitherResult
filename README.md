@@ -9,7 +9,7 @@ Implementation of Haskell's Either type in C#
 
 You should install [EitherResult with NuGet](https://www.nuget.org/packages/Arax.EitherResult)
 
-    Install-Package Arax.SimpleResult
+    Install-Package Arax.EitherResult
     
 Or via the .NET Core command line interface:
 
